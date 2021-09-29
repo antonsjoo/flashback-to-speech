@@ -9,4 +9,6 @@ function App() {
   );
 }
 
+console.log("hello world boys, nu händer det")
+
 export default App;
