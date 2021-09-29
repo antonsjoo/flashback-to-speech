@@ -1,11 +1,12 @@
 import PlayPause from "./PlayPause";
+import URLfetcher from "./URLfetcher";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <h1>This is just a test.</h1>
       <PlayPause />
+      <URLfetcher />
     </div>
   );
 }
