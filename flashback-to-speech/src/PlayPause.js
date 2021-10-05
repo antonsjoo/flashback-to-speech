@@ -1,11 +1,11 @@
 import Voice from "./Voice.js";
 
-function PlayPause() {
+const PlayPause = ({ text }) => {
   return (
     <div className="flex items-center justify-center p-10">
       <span>
         <button
-          onClick={() => Voice.speak()}
+          onClick={() => Voice.speak(text)}
           type="button"
           className="px-10 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 font-bold"
         >
@@ -14,6 +14,6 @@ function PlayPause() {
       </span>
     </div>
   );
-}
+};
 
 export default PlayPause;
